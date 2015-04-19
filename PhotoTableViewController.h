@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PhotoTableViewController.h
 //  TableViewWithSearchBar
 //
 //  Created by Dream 71 on 3/24/15.
@@ -7,9 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Photo.h"
 
-@interface ViewController : UIViewController
-
-
+@interface PhotoTableViewController : UITableViewController 
 @end
-

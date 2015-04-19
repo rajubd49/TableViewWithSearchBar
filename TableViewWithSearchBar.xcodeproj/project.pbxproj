@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		0F5D8F2E1AC1187A00D08F5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5D8F2D1AC1187A00D08F5D /* main.m */; };
 		0F5D8F311AC1187A00D08F5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5D8F301AC1187A00D08F5D /* AppDelegate.m */; };
-		0F5D8F341AC1187A00D08F5D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5D8F331AC1187A00D08F5D /* ViewController.m */; };
 		0F5D8F371AC1187A00D08F5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F5D8F351AC1187A00D08F5D /* Main.storyboard */; };
 		0F5D8F391AC1187A00D08F5D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F5D8F381AC1187A00D08F5D /* Images.xcassets */; };
 		0F5D8F3C1AC1187A00D08F5D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F5D8F3A1AC1187A00D08F5D /* LaunchScreen.xib */; };
 		0F5D8F481AC1187A00D08F5D /* TableViewWithSearchBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5D8F471AC1187A00D08F5D /* TableViewWithSearchBarTests.m */; };
+		0F5D8F531AC11BBD00D08F5D /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5D8F521AC11BBD00D08F5D /* Photo.m */; };
+		0F5D8F561AC11C1900D08F5D /* PhotoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5D8F551AC11C1900D08F5D /* PhotoTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +33,16 @@
 		0F5D8F2D1AC1187A00D08F5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0F5D8F2F1AC1187A00D08F5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0F5D8F301AC1187A00D08F5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0F5D8F321AC1187A00D08F5D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0F5D8F331AC1187A00D08F5D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0F5D8F361AC1187A00D08F5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0F5D8F381AC1187A00D08F5D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0F5D8F3B1AC1187A00D08F5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		0F5D8F411AC1187A00D08F5D /* TableViewWithSearchBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewWithSearchBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F5D8F461AC1187A00D08F5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F5D8F471AC1187A00D08F5D /* TableViewWithSearchBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewWithSearchBarTests.m; sourceTree = "<group>"; };
+		0F5D8F511AC11BBD00D08F5D /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		0F5D8F521AC11BBD00D08F5D /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		0F5D8F541AC11C1900D08F5D /* PhotoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotoTableViewController.h; path = ../PhotoTableViewController.h; sourceTree = "<group>"; };
+		0F5D8F551AC11C1900D08F5D /* PhotoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoTableViewController.m; path = ../PhotoTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +86,10 @@
 			children = (
 				0F5D8F2F1AC1187A00D08F5D /* AppDelegate.h */,
 				0F5D8F301AC1187A00D08F5D /* AppDelegate.m */,
-				0F5D8F321AC1187A00D08F5D /* ViewController.h */,
-				0F5D8F331AC1187A00D08F5D /* ViewController.m */,
+				0F5D8F511AC11BBD00D08F5D /* Photo.h */,
+				0F5D8F521AC11BBD00D08F5D /* Photo.m */,
+				0F5D8F541AC11C1900D08F5D /* PhotoTableViewController.h */,
+				0F5D8F551AC11C1900D08F5D /* PhotoTableViewController.m */,
 				0F5D8F351AC1187A00D08F5D /* Main.storyboard */,
 				0F5D8F381AC1187A00D08F5D /* Images.xcassets */,
 				0F5D8F3A1AC1187A00D08F5D /* LaunchScreen.xib */,
@@ -219,8 +224,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F5D8F341AC1187A00D08F5D /* ViewController.m in Sources */,
+				0F5D8F531AC11BBD00D08F5D /* Photo.m in Sources */,
 				0F5D8F311AC1187A00D08F5D /* AppDelegate.m in Sources */,
+				0F5D8F561AC11C1900D08F5D /* PhotoTableViewController.m in Sources */,
 				0F5D8F2E1AC1187A00D08F5D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,6 +352,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TableViewWithSearchBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -356,6 +363,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TableViewWithSearchBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
